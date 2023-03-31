@@ -40,6 +40,8 @@ int main(int argc, char* argv[]) {
 			}
 			printf("\n");
 		}
+
+		winCheck = winCondition(board);
 		turn = turn + 1;
 		inputCheck = false;
 	} while (winCheck == false);
